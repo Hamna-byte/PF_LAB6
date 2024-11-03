@@ -1,0 +1,20 @@
+// PF-lab6-T1.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i = 1; 
+    while (i <= 7) {
+        int j = 1; 
+        while (j <= i) {
+            cout << " * "; 
+            j++; 
+        }
+        cout << endl;
+        i++; 
+    }
+    return 0;
+}
+
